@@ -60,11 +60,10 @@ img{
 
 footer{
     background-color: #B49696;
-    margin-top: 12px;
-    padding: 10px;
+    padding-bottom: 10px;
     font-size: 0.7em;
     text-align: right;
-    width: 100%;
+    width: 100%;    
 }
 
 section div{
@@ -115,4 +114,9 @@ section div{
 
 .remove-margin{
     margin: 0;
+}
+
+.footer-bottom{
+    bottom: 0px;
+    position: fixed;
 }
