@@ -55,14 +55,10 @@ p{
 }
 
 img{
-    max-height: 200px;
+    max-height: 250px;
 }
 
 footer{
-    background-color: #B49696;
-    padding-bottom: 10px;
-    font-size: 0.7em;
-    text-align: right;
     width: 100%;    
 }
 
@@ -84,12 +80,14 @@ section div{
 }
 
 .image-me{
+    max-height: 175;
     border-radius: 50%;
-    border: 2px solid #504e4e;;
+    border: 2px solid #504e4e;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    
 }
 
 .text-formatter{
@@ -119,4 +117,18 @@ section div{
 .footer-bottom{
     bottom: 0px;
     position: fixed;
+}
+
+.p-footer{
+    padding: 15px 10px;
+    text-align: right;
+    font-size: 14px;
+    background-color: #B49696;
+    margin: 0;
+}
+hr{
+    color: #504e4e;
+    background-color: #504e4e;
+    margin: 0;
+    min-height: 1px;
 }
